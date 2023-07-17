@@ -51,6 +51,7 @@ body {
   background-color: #3778c2;
   height: 50px;
   color: #fff;
+  top: 0;
 }
 
 .hamburger-icon,
@@ -167,6 +168,21 @@ body {
 
 .new-form {
   margin-top: 2rem;
+}
+
+.register-header {
+  color: white;
+  background-color: var(--blue-color);
+  font-size: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.registration-button {
+  border: none;
+  background-color: var(--green-color);
+  color: #fff;
 }
 
 .actions {
