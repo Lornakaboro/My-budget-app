@@ -6,7 +6,6 @@ gem 'devise'
 gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
 gem 'font-awesome-sass'
 
-
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.4', '>= 7.0.4.3'
 
@@ -76,5 +75,3 @@ group :test do
   gem 'webdrivers'
 end
 gem 'rubocop', '>= 1.0', '< 2.0'
-
-
