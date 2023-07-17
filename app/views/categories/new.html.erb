@@ -1,11 +1,15 @@
 <nav class="header">
-    <%= image_tag(image_path("BIZZ-01.png"), alt: "logo", class: "logo") %>
-  <div>
-    <p> NEW CATEGORY </p>
+  <div class="logo">
+  <div class="new-categories">
+    <p> NEW CATEGORY</p>
   </div>
-  <div>
-    <%= link_to "Back", categories_path, class: "back" %>
+  <div class="back-link">
+  <%= link_to categories_path, class: "back" do %>
+    <i class="fas fa-arrow-left"></i>
+  <% end %>
+</div>
   </div>
+
 </nav>
 
 <div class="input-group">

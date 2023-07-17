@@ -1,6 +1,14 @@
 <nav class="header">
  
-    <%= image_tag(image_path("BIZZ-01.png"), alt: "logo", class: "logo") %>
+<div class="logo">
+
+<div class="hamburger-icon"> <%= image_tag("hamburger.png", :alt => "Menu", :class => "ham") %>
+
+</div>
+<div class="search-icon"><%= image_tag("search.png", :alt => "Menu", :class => "search") %>
+
+</div>
+</div>
 
   <div>
     <p><%= page %></p>

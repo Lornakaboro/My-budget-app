@@ -1,11 +1,16 @@
 <nav class="header">
-    <%= image_tag(image_path("BIZZ-01.png"), alt: "logo", class: "logo") %>
-  <div>
-    <p> EDIT CATEGORY </p>
+  <div class="logo">
+    <div class="hamburger-icon">
+      <%= image_tag("hamburger.png", alt: "Menu", class: "ham") %>
+    </div>
+  <div class="categories">
+    <p> EDIT CATEGORY</p>
   </div>
-  <div>
-    <%= link_to "Back", categories_path, class: "back" %>
+  <div class="back-link">
+    <%= link_to "Back", root_path, class: "back" %>
+  </div> 
   </div>
+
 </nav>
 
 <%= render "form", category: @category %>
